@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: PhD Student of <a href='https://informatics.ed.ac.uk/cdt-in-machine-learning-systems'>CDT MLSystems</a> @ the University of Edinburgh
 
 profile:
   align: right
