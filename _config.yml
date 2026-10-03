@@ -9,7 +9,7 @@ last_name: Ruan
 contact_note: >
   この世界は好都合に未完成、だから知りたいんだ
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
+  Jiaqi Ruan, PhD student in Machine Learning Systems at the University of Edinburgh.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted on <a href="https://pages.cloudflare.com/" target="_blank">Cloudflare Pages</a>.
