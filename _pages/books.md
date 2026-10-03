@@ -1,4 +1,5 @@
 ---
+published: false # remove this line to enable the page again
 layout: book-shelf
 title: bookshelf
 permalink: /books/

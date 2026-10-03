@@ -56,3 +56,49 @@ body.sticky-bottom-footer {
 *****************************************************************************/
 
 // TODO: redefine projects layout.
+
+/******************************************************************************
+ * About
+ ******************************************************************************/
+
+// Justify the biography paragraphs on the about page (_layouts/about.liquid)
+.about-bio p {
+  text-align: justify;
+}
+
+// Name + bio in one column, profile photo in the other, photo vertically centred
+// against them. The bio row absorbs any extra height so it stays right under the name.
+// Below 576px the float layout from _components.scss applies unchanged.
+@media (min-width: 576px) {
+  .about-intro.has-profile {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 30%;
+    grid-template-rows: auto 1fr;
+    grid-template-areas:
+      "header profile"
+      "bio profile";
+    column-gap: 1rem;
+
+    &.profile-left {
+      grid-template-columns: 30% minmax(0, 1fr);
+      grid-template-areas:
+        "profile header"
+        "profile bio";
+    }
+
+    > .post-header {
+      grid-area: header;
+    }
+
+    > .profile {
+      grid-area: profile;
+      align-self: center;
+      width: auto;
+      margin: 0;
+    }
+
+    > .about-bio {
+      grid-area: bio;
+    }
+  }
+}
